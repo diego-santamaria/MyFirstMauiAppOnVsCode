@@ -59,5 +59,14 @@ namespace MauiApp1.Resources.Strings {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ingrese una palabra-Telefono.
+        /// </summary>
+        internal static string MainLabel {
+            get {
+                return ResourceManager.GetString("MainLabel", resourceCulture);
+            }
+        }
     }
 }
